@@ -1,1 +1,23 @@
-.
+{
+  "name": "hanna-server-docs",
+  "version": "0.0.0",
+  "author": "Reykjavík (http://www.reykjavik.is)",
+  "contributors": [
+    "Már Örlygsson <mar.orlygsson@reykjavik.is>"
+  ],
+  "repository": "ssh://git@github.com:rvk-utd/hanna-server-docs.git",
+  "homepage": "https://github.com/rvk-utd/hanna-server-docs",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=14",
+    "yarn": ">=1.22"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production  yarn run http-server -p 3003 public",
+    "start:dev": "yarn run http-server -c -1 -p 3003 public"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
