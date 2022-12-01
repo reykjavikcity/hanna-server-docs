@@ -5,8 +5,8 @@
   "contributors": [
     "Már Örlygsson <mar.orlygsson@reykjavik.is>"
   ],
-  "repository": "ssh://git@github.com:rvk-utd/hanna-server-docs.git",
-  "homepage": "https://github.com/rvk-utd/hanna-server-docs",
+  "repository": "ssh://git@github.com:reykjavikcity/hanna-server-docs.git",
+  "homepage": "https://github.com/reykjavikcity/hanna-server-docs",
   "private": true,
   "license": "MIT",
   "engines": {
