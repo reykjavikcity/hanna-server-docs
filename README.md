@@ -15,4 +15,4 @@ Its contents are static builds made from within the
 3. `yarn install`
 4. `yarn run start`
 
-This starts a lightweight, static HTTP file-server on port `3003`
+This starts a lightweight, static HTTP file-server on port `3000`

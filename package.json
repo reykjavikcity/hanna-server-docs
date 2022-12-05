@@ -14,8 +14,8 @@
     "yarn": ">=1.22"
   },
   "scripts": {
-    "start": "NODE_ENV=production  yarn run http-server -p 3003 public",
-    "start:dev": "yarn run http-server -c -1 -p 3003 public"
+    "start": "NODE_ENV=production  yarn run http-server -p ${PORT:-3000} public",
+    "start:dev": "yarn run http-server -c -1 -p ${PORT:-3000} public"
   },
   "dependencies": {
     "http-server": "^14.1.1"
