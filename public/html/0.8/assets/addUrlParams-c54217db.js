@@ -1,0 +1,2 @@
+import{g as o}from"./index-f80c8c95.js";function s(r){return Object.keys(r).reduce(function(e,n){var t=r[n];return Array.isArray(t)||(t=[t]),t.forEach(function(a){if(a!=null){var i=encodeURIComponent(String(a));e.push(n+(i?"="+i:""))}}),e},[]).join("&")}var u=s,f=u;function m(r,e){var n=r.split("#");r=n[0].replace(/\?$/,"");var t=n[1]?"#"+n[1]:"",a=f(e);return a.length&&(a=(/\?/.test(r)?"&":"?")+a),r+a+t}var c=m;const g=o(c);export{c as a,g as b};
+//# sourceMappingURL=addUrlParams-c54217db.js.map

@@ -1,0 +1,10 @@
+import{j as r}from"./jsx-runtime-f961835c.js";import{R as _}from"./index-f80c8c95.js";import{m as d}from"./classUtils-ef6e60eb.js";const u=t=>{const{steps:m,activeStep:a=-1,allowForwardSkip:b,disableBacktrack:y,onClick:f,wrapperProps:n}=t;return r.jsx("div",{...n,className:d("WizardStepper",a===-1&&"preview",(n||{}).className),children:m.map((s,e)=>{const{clickable:l,done:o,neutral:k}=s,i=s.label||"…",p=d("WizardStepper__step",[(o||o==null&&e<a)&&"done",k&&"neutral"]),h=l==="always"||l&&(a===e||e>a&&b||e<a&&!y),c=a===e?"step":void 0;return r.jsxs(_.Fragment,{children:[h?r.jsx("button",{type:"button",className:p,onClick:()=>f(e),"aria-current":c,children:i}):r.jsxs("span",{className:p,"aria-current":c,children:[" ",i," "]})," "]},e)})})};try{u.displayName="WizardStepper",u.__docgenInfo={description:"",displayName:"WizardStepper",props:{steps:{defaultValue:null,description:"",name:"steps",required:!0,type:{name:"readonly WizardStepperStep[]"}},activeStep:{defaultValue:null,description:"Zero-based index of the active (current) step",name:"activeStep",required:!1,type:{name:"number"}},disableBacktrack:{defaultValue:null,description:'By default, clickable steps remain clickable once "done"',name:"disableBacktrack",required:!1,type:{name:"boolean"}},allowForwardSkip:{defaultValue:null,description:"By default, clickable steps after the active step are not immediately clickable",name:"allowForwardSkip",required:!1,type:{name:"boolean"}},onClick:{defaultValue:null,description:"",name:"onClick",required:!0,type:{name:"(clickedIndex: number) => void"}},wrapperProps:{defaultValue:null,description:`Custom HTML attributes for the component's wrapper element.
+
+Note, however, that some props may be intentionally
+excluded from the list.
+
+__WARNING:__
+In some cases props added this way can break the component, og hurt its
+accessibility.  Also, some props may get ignored, or over-ridden by the
+component. User discretion is advised.`,name:"wrapperProps",required:!1,type:{name:"HTMLProps<null, never>"}}}}}catch{}export{u as W};
+//# sourceMappingURL=WizardStepper-e5e6bbcd.js.map

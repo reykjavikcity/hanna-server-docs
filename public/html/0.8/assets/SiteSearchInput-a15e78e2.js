@@ -1,0 +1,13 @@
+import{j as r}from"./jsx-runtime-f961835c.js";import{R as x,r as I}from"./index-f80c8c95.js";import{g as C,F as N}from"./FormField-eaf65ac7.js";const m=x.forwardRef((e,h)=>{const{onChange:o,buttonText:s="Leita",onSubmit:i,onButtonClick:l=e.onSubmit,onKeyDown:a,placeholder:u=typeof e.label=="string"?e.label:void 0,fieldWrapperProps:f,...p}=C(e),{value:d,defaultValue:b}=p,[_,y]=I.useState(void 0),c=!!(d??_??!!b),S=!c&&!u,v=d!=null?o:n=>{y(!!n.target.value),o&&o(n)};return r.jsx(N,{extraClassName:"SiteSearchInput",empty:S,filled:c,...f,renderInput:(n,g,w)=>r.jsxs("div",{className:n.input,...w(),children:[r.jsx("input",{className:"SiteSearchInput__input",onChange:v,...g,placeholder:u,onKeyDown:i?t=>{t.key==="Enter"&&i()!==!0&&t.preventDefault(),a&&a(t)}:a,...p,ref:h})," ",r.jsx("button",{className:"SiteSearchInput__button",type:"submit",onClick:l&&(t=>!l()&&t.preventDefault()),title:s,children:s})]})})});try{m.displayName="SiteSearchInput",m.__docgenInfo={description:"",displayName:"SiteSearchInput",props:{wrapperProps:{defaultValue:null,description:`Custom HTML attributes for the component's wrapper element.
+
+Note, however, that some props may be intentionally
+excluded from the list.
+
+__WARNING:__
+In some cases props added this way can break the component, og hurt its
+accessibility.  Also, some props may get ignored, or over-ridden by the
+component. User discretion is advised.`,name:"wrapperProps",required:!1,type:{name:"HTMLProps<null, never>"}},id:{defaultValue:null,description:'Optional pre-determinted id="" for the __input',name:"id",required:!1,type:{name:"string"}},onSubmit:{defaultValue:null,description:"Triggered when user hits ENTER key with the focus inside the input field\n\nReturn `true` to __allow__ the browser's default submit hehavior",name:"onSubmit",required:!1,type:{name:"(() => boolean | void)"}},label:{defaultValue:null,description:"",name:"label",required:!0,type:{name:"string | Element"}},ssr:{defaultValue:null,description:`Indicates whether server-side rendering is supported or not.
+
+The \`ssr-only\` value is useful for cases where you need
+to demo the server-rendered version in a browser.`,name:"ssr",required:!1,type:{name:"SSRSupport"}},onButtonClick:{defaultValue:null,description:"Custom action to perform when the user clicks the search button\n\nReturn `true` to __allow__ the browser's default submit hehavior\n\nDefaults to `onSearch`",name:"onButtonClick",required:!1,type:{name:"(() => boolean | void)"}},buttonText:{defaultValue:null,description:"",name:"buttonText",required:!1,type:{name:"string"}}}}}catch{}export{m as S};
+//# sourceMappingURL=SiteSearchInput-a15e78e2.js.map

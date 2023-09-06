@@ -1,33 +1,106 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><title>Storybook</title><meta name="viewport" content="width=device-width,initial-scale=1"/><style>html, body {
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }</style><script>/* globals window */
-  /* eslint-disable no-underscore-dangle */
-  try {
-    if (window.top !== window) {
-      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.top.__REACT_DEVTOOLS_GLOBAL_HOOK__;
-    }
-  } catch (e) {
-    // eslint-disable-next-line no-console
-    console.warn('unable to connect to top frame for connecting dev tools');
-  }</script><style>#storybook-panel-root .simplebar-content button[title='Hide addons'] {
-		display: none !important;
-	}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-	.simplebar-mask button[title^='Change the size']::before {
-		content: 'Viewport:  ';
-		font-size: 0.8em;
-	}
+    <title>@storybook/cli - Storybook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	.simplebar-mask button[title='Go full screen'],
-	.simplebar-mask button[title='Zoom in'],
-	.simplebar-mask button[title='Zoom out'],
-	.simplebar-mask button[title='Reset zoom'] {
-		display: none !important;
-	}</style><style>#root[hidden],
-      #docs-root[hidden] {
+    
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    
+    <link
+      rel="prefetch"
+      href="./sb-common-assets/nunito-sans-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="prefetch"
+      href="./sb-common-assets/nunito-sans-bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="./sb-common-assets/fonts.css" />
+
+    <link href="./sb-manager/runtime.js" rel="modulepreload" />
+
+    
+    <link href="./sb-addons/viewport-0/manager-bundle.js" rel="modulepreload" />
+    
+    <link href="./sb-addons/controls-1/manager-bundle.js" rel="modulepreload" />
+    
+    <link href="./sb-addons/whitespace-html-esm-preset-2/manager-bundle.js" rel="modulepreload" />
+    
+    <link href="./sb-addons/storybook-3/manager-bundle.js" rel="modulepreload" />
+       
+
+    <style>
+      #storybook-root[hidden] {
         display: none !important;
-      }</style></head><body><div id="root"></div><div id="docs-root"></div><script></script><script src="runtime~main.3c2598c89d612b27d141.bundle.js"></script><script src="vendors~main.eb82cec988fda39eb076.bundle.js"></script><script src="main.64d65591d6e59f8c8f2c.bundle.js"></script></body></html>
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    <div id="root"></div>
+
+    
+    <script>
+      
+        
+          window['FEATURES'] = {
+  "warnOnLegacyHierarchySeparator": true,
+  "buildStoriesJson": false,
+  "storyStoreV7": true,
+  "argTypeTargetsV7": true,
+  "legacyDecoratorFileOrder": false
+};
+        
+      
+        
+          window['REFS'] = {};
+        
+      
+        
+          window['LOGLEVEL'] = "info";
+        
+      
+        
+          window['DOCS_OPTIONS'] = {
+  "docsMode": false,
+  "autodocs": false
+};
+        
+      
+        
+          window['CONFIG_TYPE'] = "PRODUCTION";
+        
+      
+        
+      
+        
+      
+    </script>
+    
+
+    <script type="module">
+      import './sb-manager/runtime.js';
+
+      
+      import './sb-addons/viewport-0/manager-bundle.js';
+      
+      import './sb-addons/controls-1/manager-bundle.js';
+      
+      import './sb-addons/whitespace-html-esm-preset-2/manager-bundle.js';
+      
+      import './sb-addons/storybook-3/manager-bundle.js';
+      
+    </script>
+
+    <link href="./sb-preview/runtime.js" rel="prefetch" as="script" />
+  </body>
+</html>

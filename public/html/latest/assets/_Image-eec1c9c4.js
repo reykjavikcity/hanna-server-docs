@@ -1,0 +1,15 @@
+import{j as e}from"./jsx-runtime-f961835c.js";import{c as S,m as w}from"./classUtils-ef6e60eb.js";import{u as V}from"./useGetSVGtext-49da7148.js";const h=a=>{const{src:y,altText:o="",sources:n=[],preloadSrc:d,modifier:_,bem:c,inline:m,placeholder:r,focalPoint:p,className:x,wrapperProps:u={}}=a,s=n.length&&d||y||(n[0]!=null?n[0].srcset.split(" ")[0]:void 0),b=d?"eager":"lazy",i=V(m?s:void 0,o),f=S(x,u.className)||void 0,l=c?w(c,[_,!s&&"missing"],f):f;if(!s)return r?e.jsx("span",{...a.wrapperProps,className:l,children:r!==!0&&r()}):null;if(m&&i){const t=i.imageSrc===s?i.code:"";return e.jsx("span",{...a.wrapperProps,className:l,dangerouslySetInnerHTML:{__html:t}})}const g=u.style;return e.jsxs("picture",{...a.wrapperProps,className:l,style:p?{...g,"--focalPoint":p}:g,children:[" ",n.map((t,N)=>e.jsxs(e.Fragment,{children:[e.jsx("source",{srcSet:t.srcset,media:t.media},N)," "]}))," ",e.jsx("img",{src:s,alt:o,loading:b}),"  "]})};try{h.displayName="Image",h.__docgenInfo={description:"",displayName:"Image",props:{altText:{defaultValue:null,description:"",name:"altText",required:!1,type:{name:"string"}},sources:{defaultValue:null,description:"",name:"sources",required:!1,type:{name:"Source[]"}},src:{defaultValue:null,description:"The default image source to (lazy) load",name:"src",required:!1,type:{name:"string"}},preloadSrc:{defaultValue:null,description:"Eagerly-loaded placeholder/thunbnail to use until a `sources` item has been picked.",name:"preloadSrc",required:!1,type:{name:"string"}},inline:{defaultValue:null,description:"Should the image be fetched and inlined as <svg/>",name:"inline",required:!1,type:{name:"boolean"}},focalPoint:{defaultValue:null,description:"",name:"focalPoint",required:!1,type:{name:"string"}},placeholder:{defaultValue:null,description:`Controls if the container is rendered when image is missing/undefined.
+(With a \`--missing\` className modifier added.)
+
+Accepts a function that defines a default content for the container.`,name:"placeholder",required:!1,type:{name:"boolean | (() => Element)"}},className:{defaultValue:null,description:"Extra, custom className in addition to the `bem` base",name:"className",required:!1,type:{name:"string"}},bem:{defaultValue:null,description:"CSS BEM class-name prefix to be used for this component. Defaults to the same as the original component's displayName",name:"bem",required:!1,type:{name:"string"}},modifier:{defaultValue:null,description:`List of CSS BEM --modifier's to add to the component's main wrapper.
+
+All falsy values are neatly skipped.`,name:"modifier",required:!1,type:{name:"Modifiers"}},wrapperProps:{defaultValue:null,description:`Custom HTML attributes for the component's wrapper element.
+
+Note, however, that some props may be intentionally
+excluded from the list.
+
+__WARNING:__
+In some cases props added this way can break the component, og hurt its
+accessibility.  Also, some props may get ignored, or over-ridden by the
+component. User discretion is advised.`,name:"wrapperProps",required:!1,type:{name:"HTMLProps<null, never>"}}}}}catch{}export{h as I};
+//# sourceMappingURL=_Image-eec1c9c4.js.map

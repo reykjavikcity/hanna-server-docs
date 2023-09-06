@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{545:function(e,n,t){t(546),t(703),t(747),t(1367),t(1371),e.exports=t(1833)},590:function(e,n){},703:function(e,n,t){"use strict";t.r(n);var s=t(114),o=t(5);const i={theme:Object(o.create)({base:"light",brandTitle:"Reykjavík Design System"})};s.addons.setConfig(i)}},[[545,180,181]]]);

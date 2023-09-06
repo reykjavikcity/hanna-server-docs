@@ -1,0 +1,2 @@
+import{g}from"./index-f80c8c95.js";var f=function(a,o,s){var r,t=0,u,h,l=function(){for(var e=[],n=0;n<arguments.length;n++)e[n]=arguments[n];u=e,h=this,t||(s?t++:a.apply(h,u),r=setTimeout(l.finish,o)),t++};return l.finish=function(e){r&&clearTimeout(r),!e&&t>1&&a.apply(h,u),t=0},l};f.d=function(a,o){return f(function(s){for(var r=[],t=1;t<arguments.length;t++)r[t-1]=arguments[t];s.apply(this,r)},a,o)};var i=f;const m=g(i);export{i as a,m as t};
+//# sourceMappingURL=throttle-040182c3.js.map

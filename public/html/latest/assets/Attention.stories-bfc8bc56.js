@@ -1,0 +1,6 @@
+import{j as t}from"./jsx-runtime-f961835c.js";import{A as r}from"./Attention-884c2f75.js";import{H as i}from"./HiddenTrigger-1a15bc56.js";import"./index-f80c8c95.js";import"./classUtils-ef6e60eb.js";import"./index-603b371f.js";import"./hooks-d45327d9.js";import"./domid-a414b1fb.js";const f={title:"Attention",parameters:{controls:{hideNoControlsWarning:!0},viewport:{defaultViewport:"responsive"}}},a=()=>t.jsxs(t.Fragment,{children:[t.jsx(i,{children:t.jsx("p",{children:"This Atomic component can be placed inside/alongside just about any type of text content."})}),t.jsxs(r,{children:["Please note that - ",t.jsx("a",{href:"",children:"Bein útsending frá fundi borgarstjórnar"})," í Ráðhúsi Reykjavíkur hefst kl. 14:00"]}),`
+
+`,t.jsxs(r,{small:!0,children:["Please note that - ",t.jsx("a",{href:"",children:"Bein útsending frá fundi borgarstjórnar"})," í Ráðhúsi Reykjavíkur hefst kl. 14:00"]})]}),e={render:()=>t.jsx(a,{})};var n,o,s;e.parameters={...e.parameters,docs:{...(n=e.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  render: () => <AttentionStory />
+}`,...(s=(o=e.parameters)==null?void 0:o.docs)==null?void 0:s.source}}};const x=["_Attention"];export{e as _Attention,x as __namedExportsOrder,f as default};
+//# sourceMappingURL=Attention.stories-bfc8bc56.js.map
