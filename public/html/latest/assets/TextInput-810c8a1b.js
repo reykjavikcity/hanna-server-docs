@@ -1,0 +1,18 @@
+import{j as r}from"./jsx-runtime-f961835c.js";import{r as l}from"./index-f80c8c95.js";import{m as V}from"./classUtils-ef6e60eb.js";import{g as _,F as T}from"./FormField-700213a7.js";const y=s=>{const h=l.useRef(null),{onChange:a,type:i,inputRef:t=h,fieldWrapperProps:b,...n}=_(s),{value:u,defaultValue:v,placeholder:x}=n,[g,o]=l.useState(void 0),d=!!(u??g??!!v),q=!d&&!x,p=i==="textarea",m=u!=null?a:e=>{o(!!e.target.value),a&&a(e)};return l.useEffect(()=>{var e;(e=t.current)!=null&&e.value&&o(!0)},[]),r.jsx(T,{extraClassName:V("TextInput",[p&&"multiline"]),empty:q,filled:d,...b,renderInput:(e,f,c)=>p?r.jsx("textarea",{className:e.input,onChange:m,...f,...c(n),ref:t}):r.jsx("input",{className:e.input,onChange:m,type:i,...f,...c(n),ref:t})})};try{y.displayName="TextInput",y.__docgenInfo={description:"",displayName:"TextInput",props:{className:{defaultValue:null,description:'Container className - alongside "FormField"',name:"className",required:!1,type:{name:"string"}},label:{defaultValue:null,description:"",name:"label",required:!0,type:{name:"string | Element"}},assistText:{defaultValue:null,description:"",name:"assistText",required:!1,type:{name:"string | Element"}},hideLabel:{defaultValue:null,description:"",name:"hideLabel",required:!1,type:{name:"boolean"}},disabled:{defaultValue:null,description:"",name:"disabled",required:!1,type:{name:"boolean"}},readOnly:{defaultValue:null,description:"",name:"readOnly",required:!1,type:{name:"boolean"}},invalid:{defaultValue:null,description:"",name:"invalid",required:!1,type:{name:"boolean"}},errorMessage:{defaultValue:null,description:"",name:"errorMessage",required:!1,type:{name:"string | Element"}},required:{defaultValue:null,description:"",name:"required",required:!1,type:{name:"boolean"}},reqText:{defaultValue:null,description:`Hidden label prefix text to indicate that the field is required.
+
+If your field is required but should not say so in its label
+then set this prop to \`false\`
+
+Default: \`"Þarf að fylla út"\``,name:"reqText",required:!1,type:{name:"string | false"}},id:{defaultValue:null,description:'Optional pre-determinted id="" for the __input',name:"id",required:!1,type:{name:"string"}},wrapperRef:{defaultValue:null,description:"@deprecated Use `*Props.wrapperProps.ref` instead (Will be removed in v0.11)\n\nRef object pointing to the outermost `.FormField` element",name:"wrapperRef",required:!1,type:{name:"RefObject<HTMLElement>"}},wrapperProps:{defaultValue:null,description:`Custom HTML attributes for the component's wrapper element.
+
+Note, however, that some props may be intentionally
+excluded from the list.
+
+__WARNING:__
+In some cases props added this way can break the component, og hurt its
+accessibility.  Also, some props may get ignored, or over-ridden by the
+component. User discretion is advised.`,name:"wrapperProps",required:!1,type:{name:"HTMLProps<null, never>"}},ssr:{defaultValue:null,description:`Indicates whether server-side rendering is supported or not.
+
+The \`ssr-only\` value is useful for cases where you need
+to demo the server-rendered version in a browser.`,name:"ssr",required:!1,type:{name:"SSRSupport"}},small:{defaultValue:null,description:"",name:"small",required:!1,type:{name:"boolean"}},type:{defaultValue:null,description:"",name:"type",required:!1,type:{name:"enum",value:[{value:'"number"'},{value:'"search"'},{value:'"text"'},{value:'"tel"'},{value:'"url"'},{value:'"email"'},{value:'"date"'},{value:'"textarea"'},{value:'"password"'}]}},inputRef:{defaultValue:null,description:"",name:"inputRef",required:!1,type:{name:"RefObject<HTMLInputElement> | RefObject<HTMLTextAreaElement>"}}}}}catch{}export{y as T};
+//# sourceMappingURL=TextInput-810c8a1b.js.map
