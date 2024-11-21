@@ -1,4 +1,0 @@
-import{j as e}from"./jsx-runtime-f961835c.js";import{S as o}from"./Sharpie-877ec981.js";import"./index-f80c8c95.js";import"./getSVGtext-a8bc7f1c.js";const d={title:"Sharpie",parameters:{controls:{hideNoControlsWarning:!0},viewport:{defaultViewport:"responsive"}}},n=()=>e.jsxs("p",{children:[" ","All I want for Christmas is"," ",e.jsx(o,{tag:"strong",color:"green",children:"something green"})," ","and ",e.jsx(o,{color:"red",children:"something red"}),"."]}),r={render:()=>e.jsx(n,{})};var t,s,a;r.parameters={...r.parameters,docs:{...(t=r.parameters)==null?void 0:t.docs,source:{originalSource:`{
-  render: () => <SharpieStory />
-}`,...(a=(s=r.parameters)==null?void 0:s.docs)==null?void 0:a.source}}};const h=["_Sharpie"];export{r as _Sharpie,h as __namedExportsOrder,d as default};
-//# sourceMappingURL=Sharpie.stories-e769a487.js.map
