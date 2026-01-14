@@ -1,0 +1,4 @@
+import{j as e}from"./getSVGtext-33d0ab58.js";import{S as o}from"./Sharpie-7ffeb354.js";import"./index-f80c8c95.js";const d={title:"Sharpie",parameters:{controls:{hideNoControlsWarning:!0},viewport:{defaultViewport:"responsive"}}},n=()=>e.jsxs("p",{children:[" ","All I want for Christmas is"," ",e.jsx(o,{tag:"strong",color:"green",children:"something green"})," ","and ",e.jsx(o,{color:"red",children:"something red"}),"."]}),r={render:()=>e.jsx(n,{})};var s,t,a;r.parameters={...r.parameters,docs:{...(s=r.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  render: () => <SharpieStory />
+}`,...(a=(t=r.parameters)==null?void 0:t.docs)==null?void 0:a.source}}};const m=["_Sharpie"];export{r as _Sharpie,m as __namedExportsOrder,d as default};
+//# sourceMappingURL=Sharpie.stories-b3a6ace9.js.map
