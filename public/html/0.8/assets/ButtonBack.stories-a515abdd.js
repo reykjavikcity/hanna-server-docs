@@ -1,7 +1,0 @@
-import{j as e}from"./getSVGtext-33d0ab58.js";import{B as i}from"./_Button-ddfb139a.js";import"./index-f80c8c95.js";import"./_Link-b7c9c4c9.js";const t=a=>e.jsx(i,{bem:"ButtonBack",...a});try{t.displayName="ButtonBack",t.__docgenInfo={description:"",displayName:"ButtonBack",props:{label:{defaultValue:null,description:"Label takes preference over `children`",name:"label",required:!1,type:{name:"string | ReactElement<any, string | JSXElementConstructor<any>>"}},href:{defaultValue:null,description:"",name:"href",required:!1,type:{name:"string"}},modifier:{defaultValue:null,description:`List of CSS BEM --modifier's to add to the component's main wrapper.
-
-All falsy values are neatly skipped.`,name:"modifier",required:!1,type:{name:"ClassNameModifiers"}}}}}catch{}const m={title:"buttons/ButtonBack",parameters:{controls:{hideNoControlsWarning:!0},viewport:{defaultViewport:"responsive"}}},c=()=>e.jsxs(e.Fragment,{children:[e.jsxs("p",{children:[e.jsx(t,{children:"Button Back"}),e.jsx(t,{disabled:!0,children:"Disabled"})]}),e.jsx("br",{}),e.jsxs("p",{children:[e.jsx(t,{href:"",children:"Link Back"})," "]})]}),r={name:"ButtonBack",render:()=>e.jsx(c,{})};var n,o,s;r.parameters={...r.parameters,docs:{...(n=r.parameters)==null?void 0:n.docs,source:{originalSource:`{
-  name: 'ButtonBack',
-  render: () => <ButtonBackStory />
-}`,...(s=(o=r.parameters)==null?void 0:o.docs)==null?void 0:s.source}}};const B=["_ButtonBack"];export{r as _ButtonBack,B as __namedExportsOrder,m as default};
-//# sourceMappingURL=ButtonBack.stories-a515abdd.js.map

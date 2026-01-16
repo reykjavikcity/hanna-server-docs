@@ -1,0 +1,12 @@
+import{j as e}from"./jsx-runtime-f961835c.js";import{_ as a}from"./_Quote-f1dfa3d8.js";import"./index-f80c8c95.js";import"./getSVGtext-6e71cb30.js";import"./_Link-b7c9c4c9.js";const t=s=>e.jsx(a,{bem:"BlockQuote",...s});try{t.displayName="BlockQuote",t.__docgenInfo={description:"",displayName:"BlockQuote",props:{wrapperProps:{defaultValue:null,description:`Custom HTML attributes for the component's wrapper element.
+
+Note, however, that some props may be intentionally
+excluded from the list.
+
+__WARNING:__
+In some cases props added this way can break the component, og hurt its
+accessibility.  Also, some props may get ignored, or over-ridden by the
+component. User discretion is advised.`,name:"wrapperProps",required:!1,type:{name:"HTMLProps<null, never>"}},by:{defaultValue:null,description:"",name:"by",required:!1,type:{name:"string | Element"}},byHref:{defaultValue:null,description:"",name:"byHref",required:!1,type:{name:"string"}}}}}catch{}const b={title:"text/BlockQuote",parameters:{controls:{hideNoControlsWarning:!0},viewport:{defaultViewport:"responsive"}}},c=()=>e.jsxs(e.Fragment,{children:[e.jsx(t,{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quam voluptas necessitatibus in beatae distinctio cum!"}),e.jsxs(t,{by:"Jón Jónsson",children:[e.jsx("p",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit."}),e.jsxs("ul",{children:[e.jsx("li",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit."}),e.jsx("li",{children:"Explicabo quam voluptas necessitatibus in beatae distinctio cum!"})]}),e.jsx("p",{children:"Explicabo quam voluptas necessitatibus in beatae distinctio cum!"}),e.jsxs("ol",{children:[e.jsx("li",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit."}),e.jsx("li",{children:"Explicabo quam voluptas necessitatibus in beatae distinctio cum!"})]})]}),e.jsx(t,{by:"Jón Jónsson ehf",byHref:"about:blank",children:e.jsx("p",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quam voluptas necessitatibus in beatae distinctio cum!"})})]}),i={render:()=>e.jsx(c,{})};var o,r,n;i.parameters={...i.parameters,docs:{...(o=i.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  render: () => <BlockQuoteStory />
+}`,...(n=(r=i.parameters)==null?void 0:r.docs)==null?void 0:n.source}}};const x=["_BlockQuote"];export{i as _BlockQuote,x as __namedExportsOrder,b as default};
+//# sourceMappingURL=Blockquote.stories-3bded8fd.js.map
