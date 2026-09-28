@@ -1,0 +1,22 @@
+import{j as a}from"./jsx-runtime-f961835c.js";import{r as s}from"./index-f80c8c95.js";import{c}from"./getSVGtext-6e71cb30.js";const u=e=>{const{className:d,type:i,size:o="medium",...n}=e;return a.jsx("span",{...n,className:c("Icon",e.className),"data-icon":i,"data-icon-size":o!=="medium"?o:void 0})};try{u.displayName="Icon",u.__docgenInfo={description:"",displayName:"Icon",props:{type:{defaultValue:null,description:"",name:"type",required:!0,type:{name:"enum",value:[{value:'"docs"'},{value:'"link"'},{value:'"menu"'},{value:'"circle"'},{value:'"search"'},{value:'"timer"'},{value:'"download"'},{value:'"info"'},{value:'"warning"'},{value:'"error"'},{value:'"send"'},{value:'"close"'},{value:'"close_small"'},{value:'"add"'},{value:'"remove"'},{value:'"add_circle"'},{value:'"zoom_in"'},{value:'"search_activity"'},{value:'"zoom_out"'},{value:'"visibility"'},{value:'"visibility_off"'},{value:'"notes"'},{value:'"favorite"'},{value:'"favorite_filled"'},{value:'"sell"'},{value:'"vertical_align_bottom"'},{value:'"open_in_new"'},{value:'"right_panel_close"'},{value:'"right_panel_open"'},{value:'"home"'},{value:'"home_work"'},{value:'"light_mode"'},{value:'"lock"'},{value:'"lock_open"'},{value:'"font_download"'},{value:'"location_on"'},{value:'"pets"'},{value:'"local_parking"'},{value:'"school"'},{value:'"local_taxi"'},{value:'"language"'},{value:'"home_repair_service"'},{value:'"work"'},{value:'"schedule"'},{value:'"calendar_clock"'},{value:'"calendar_month"'},{value:'"hourglass"'},{value:'"notifications"'},{value:'"category"'},{value:'"refresh"'},{value:'"rotate_right"'},{value:'"keep"'},{value:'"keep_off"'},{value:'"print"'},{value:'"arrow_forward"'},{value:'"arrow_back"'},{value:'"arrow_downward"'},{value:'"arrow_upward"'},{value:'"arrow_back_ios_new"'},{value:'"arrow_forward_ios"'},{value:'"chevron_forward"'},{value:'"chevron_backward"'},{value:'"keyboard_arrow_down"'},{value:'"keyboard_arrow_up"'},{value:'"swap_vert"'},{value:'"pan_zoom"'},{value:'"open_in_full"'},{value:'"account_circle"'},{value:'"person_add"'},{value:'"person"'},{value:'"frame_person"'},{value:'"person_pin"'},{value:'"contacts"'},{value:'"groups"'},{value:'"settings"'},{value:'"exit_to_app"'},{value:'"login"'},{value:'"logout"'},{value:'"tune"'},{value:'"more_horiz"'},{value:'"filter_list"'},{value:'"filter_alt"'},{value:'"photo"'},{value:'"format_quote"'},{value:'"draft"'},{value:'"create_new_folder"'},{value:'"fast_forward"'},{value:'"fast_rewind"'},{value:'"play_arrow"'},{value:'"pause"'},{value:'"attach_file"'},{value:'"edit"'},{value:'"picture_as_pdf"'},{value:'"format_bold"'},{value:'"format_underlined"'},{value:'"format_list_bulleted"'},{value:'"format_h1"'},{value:'"format_h2"'},{value:'"format_h3"'},{value:'"upload"'},{value:'"content_copy"'},{value:'"delete"'},{value:'"check_box"'},{value:'"check_box_filled"'},{value:'"feedback"'},{value:'"warning_filled"'},{value:'"error_filled"'},{value:'"help"'},{value:'"help_center"'},{value:'"report"'},{value:'"check"'},{value:'"check_circle"'},{value:'"forum"'},{value:'"mail"'},{value:'"call"'},{value:'"done_all"'},{value:'"info_filled"'},{value:'"pie_chart"'},{value:'"mic"'},{value:'"history"'},{value:'"chart_data"'},{value:'"fingerprint"'},{value:'"robot_2"'},{value:'"keyboard_return"'},{value:'"ev_station"'},{value:'"accessible"'}]}},size:{defaultValue:null,description:"",name:"size",required:!1,type:{name:"enum",value:[{value:'"large"'},{value:'"small"'},{value:'"medium"'}]}},ref:{defaultValue:null,description:"",name:"ref",required:!1,type:{name:"RefObject<HTMLSpanElement>"}}}}}catch{}const _=["small","medium","large"],h={title:"Icon"},l={render:e=>a.jsxs(s.Fragment,{children:[a.jsx(u,{type:"category",size:e.size}),a.jsxs("div",{children:[a.jsx(u,{type:"logout",size:e.size}),"Some Text"]})]}),argTypes:{size:{name:"Size",options:_,control:{type:"inline-radio"}}},args:{size:"medium"}};var r,v,t;l.parameters={...l.parameters,docs:{...(r=l.parameters)==null?void 0:r.docs,source:{originalSource:`{
+  render: props => <Fragment>
+      <Icon type="category" size={props.size} />
+      <div>
+        <Icon type="logout" size={props.size} />
+        Some Text
+      </div>
+    </Fragment>,
+  argTypes: {
+    size: {
+      name: 'Size',
+      options: sizeOptions,
+      control: {
+        type: 'inline-radio'
+      }
+    }
+  },
+  args: {
+    size: 'medium'
+  }
+}`,...(t=(v=l.parameters)==null?void 0:v.docs)==null?void 0:t.source}}};const g=["_Icon"];export{l as _Icon,g as __namedExportsOrder,h as default};
+//# sourceMappingURL=Icon.stories-66fad193.js.map
